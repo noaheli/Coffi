@@ -1,0 +1,12 @@
+.main {
+    background-color: rgb(48, 54, 71); 
+    min-width: 100%;
+    min-height: 100%;
+}
+.shopList {
+    margin: 10px 10px;
+    min-width: 100%;
+}
+.shopItem {
+    margin: 2px 2px;
+}
