@@ -3,12 +3,6 @@ import { StyleSheet, Text, View } from 'react-native';
 import TopBar from '../components/TopBar';
 
 export default class Home extends Component {
-
-  constructor(props){
-    super();
-
-  }
-
   render (){
     return (
       <View style={styles.container}>
@@ -19,7 +13,6 @@ export default class Home extends Component {
       </View>
     );
   }
-  
 }
 
 const styles = StyleSheet.create({

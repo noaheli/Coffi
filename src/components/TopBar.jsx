@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, Image, TouchableHighlight } from 'react-native';
-
-
+import { StyleSheet, View, Image, TouchableHighlight } from 'react-native';
 
 export default class TopBar extends Component {
-
-  constructor(props){
-    super();
-  }
-
   render (){
     return (
       <View style={styles.container}>
@@ -23,7 +16,6 @@ export default class TopBar extends Component {
       </View>
     );
   }
-  
 }
 
 const styles = StyleSheet.create({
