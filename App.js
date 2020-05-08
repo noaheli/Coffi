@@ -4,6 +4,7 @@ import Home from './src/pages/Home';
 import Capture from './src/pages/Capture';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import {NavigationContainer} from '@react-navigation/native';
+import ShopListing from "./src/pages/ShopListing";
 
 const Drawer = createDrawerNavigator();
 
@@ -16,6 +17,7 @@ export default class App extends Component {
           <Drawer.Navigator initialRouteName="Home">
             <Drawer.Screen name="Home" component={Home}/>
             <Drawer.Screen name="Capture" component={Capture}/>
+            <Drawer.Screen name="Shop Listings" component={ShopListing}/>
           </Drawer.Navigator>
         </NavigationContainer>
       </View>
