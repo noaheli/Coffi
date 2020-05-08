@@ -1,9 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 26064,
-  "expoServerNgrokUrl": "https://nz-iwj.anonymous.coffi.exp.direct",
-  "packagerNgrokUrl": "https://packager.nz-iwj.anonymous.coffi.exp.direct",
-  "ngrokPid": 26074
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
+  "webpackServerPort": null
 }
