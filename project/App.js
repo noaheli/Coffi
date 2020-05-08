@@ -5,6 +5,7 @@ import FontAwesomeIcon, { SolidIcons, RegularIcons } from 'react-native-fontawes
 
 
 
+
 const stuff = [
   {
     name: "Test Shop 1",
