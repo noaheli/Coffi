@@ -10,8 +10,12 @@
   "dependencies": {
     "@react-navigation/drawer": "^5.5.0",
     "@react-navigation/native": "^5.1.6",
-    "expo": "~37.0.3",
+    "expo": "^37.0.8",
+    "expo-camera": "~8.2.0",
+    "expo-permissions": "~8.1.0",
+    "install": "^0.13.0",
     "react": "~16.9.0",
+    "react-cloud-vision-api": "^0.3.0",
     "react-dom": "~16.9.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
     "react-native-gesture-handler": "^1.6.1",
