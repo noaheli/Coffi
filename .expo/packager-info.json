@@ -3,8 +3,8 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerNgrokUrl": "https://nz-iwj.anonymous.coffi.exp.direct",
+  "packagerNgrokUrl": "https://packager.nz-iwj.anonymous.coffi.exp.direct",
+  "ngrokPid": 27150,
   "webpackServerPort": null
 }

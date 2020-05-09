@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import TopBar from '../components/TopBar';
+import React, { Component } from "react";
+import { StyleSheet, Text, View } from "react-native";
+import TopBar from "../components/TopBar";
 
 export default class Capture extends Component {
-  render (){
+  render() {
     return (
       <View style={styles.container}>
-        <TopBar navigation={this.props.navigation}/>
+        <TopBar navigation={this.props.navigation} />
         <View style={styles.contentArea}>
           <Text>I see you're here to capture</Text>
         </View>
@@ -21,8 +21,8 @@ const styles = StyleSheet.create({
   },
   contentArea: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

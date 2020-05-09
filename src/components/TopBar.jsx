@@ -1,15 +1,17 @@
-import React, { Component } from 'react';
-import { StyleSheet, View, Image, TouchableHighlight } from 'react-native';
+import React, { Component } from "react";
+import { StyleSheet, View, Image, TouchableHighlight } from "react-native";
 
 export default class TopBar extends Component {
-  render (){
+  render() {
     return (
       <View style={styles.container}>
         <TouchableHighlight
-          onPress={()=>{this.props.navigation.toggleDrawer()}}
+          onPress={() => {
+            this.props.navigation.toggleDrawer();
+          }}
         >
-          <Image 
-            source={require('../../assets/hamburger.png')}
+          <Image
+            source={require("../../assets/hamburger.png")}
             style={styles.hamburger}
           />
         </TouchableHighlight>
@@ -21,15 +23,15 @@ export default class TopBar extends Component {
 const styles = StyleSheet.create({
   container: {
     height: 90,
-    flexDirection: 'row',
-    backgroundColor: '#00e5ff',
-    alignItems: 'center',
-    justifyContent: 'flex-start',
+    flexDirection: "row",
+    backgroundColor: "#00e5ff",
+    alignItems: "center",
+    justifyContent: "flex-start",
     paddingLeft: 20,
     paddingTop: 20,
   },
   hamburger: {
     width: 30,
     height: 30,
-  }
+  },
 });
