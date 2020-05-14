@@ -14,15 +14,15 @@ import TopBar from "../components/TopBar";
 
 const stuff = [
   {
-    name: "Test Shop 1",
+    name: "Birch Coffee",
     stars: 4,
-    description: "The bbest gigglin coffee shop in town.",
+    description: "Hip spot offering house-roasted brews",
     img: [
       "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/321371_1100-1100x628.jpg",
       "https://image.shutterstock.com/image-photo/wood-table-top-blur-people-260nw-568528537.jpg",
       "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
     ],
-    loc: ".3 miles",
+    loc: "0.8 miles",
     password: {
       has: true,
       login: "password",
@@ -30,14 +30,14 @@ const stuff = [
     },
   },
   {
-    name: "Test Shop 2",
+    name: "R&R Coffee",
     stars: 4,
     description:
-      "the  actuallly best gigglin coffee shop in townaaaa aaa aaaas dasfdfslkf js kjshgdkj fghdkh gdkfd khg dkhg dkfhg kdhg dkdkfgh kdfhgk dhfgkd hgkdhg kdfgk dfgkdh fgkdhfgk dh",
+      "Low-key cafe with sandwiches and pastries.",
     img: [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/1200px-A_small_cup_of_coffee.JPG",
     ],
-    loc: ".3 miles",
+    loc: "0.4 miles",
     password: {
       has: false,
       login: "password",
@@ -45,17 +45,17 @@ const stuff = [
     },
   },
   {
-    name: "Shitty Pace Starbucks",
+    name: "Pace University Starbucks",
     stars: 3,
     description:
-      "Don't even think about coming here you can't even spend real money like what's the point lol",
+      "The one stop shop for all univesity students.",
     img: [
       "https://media3.s-nbcnews.com/j/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-760w.jpg",
       "https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/321371_1100-1100x628.jpg",
       "https://image.shutterstock.com/image-photo/wood-table-top-blur-people-260nw-568528537.jpg",
       "https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
     ],
-    loc: ".3 miles",
+    loc: "0.1 miles",
     password: {
       has: true,
       login: "password",
