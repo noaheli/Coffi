@@ -1,0 +1,6 @@
+{
+    "googleCloud": {
+      "api": "https://vision.googleapis.com/v1/images:annotate?key=",
+      "apiKey": "AIzaSyA-tG5XXs6upv4I1QDsiB6_pQE396FRJ2U"
+    }
+  }
